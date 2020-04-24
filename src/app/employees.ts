@@ -1,9 +1,11 @@
-export const employee = [
+export const employees = [
   {
     firstname: 'John',
     lastname:'Paul',
     empid: 799,
     dob:'04/21/1980',
+    joindate:'01/01/2020',
+    department:'IT',
     designation: 'Manager'
   },
   {
@@ -11,6 +13,8 @@ export const employee = [
     lastname:'Tom',
     empid: 699,
     dob:'01/11/1991',
+    joindate:'05/02/2011',
+    department:'IT',
     designation: 'Accountant'
   },
   {
@@ -18,6 +22,8 @@ export const employee = [
     lastname:'Cal',
     empid: 399,
     dob:'05/31/1999',
+    joindate:'06/04/2015',
+    department:'IT',
     designation: 'SalesPerson'
   }
 ];
